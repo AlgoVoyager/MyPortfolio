@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "nakedpower";
+    src: url("resources/nakedpower.ttf")
+}
+*{
+    font-family: "nakedpower";
+}
+.infobox1{
+    border-radius: 15em 70em 30em 70em ;
+}
+.homeBtns{
+    border-radius: 70em 30em 70em 30em ;
+}
