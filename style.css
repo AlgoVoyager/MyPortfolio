@@ -7,10 +7,57 @@
 }
 *{
     font-family: "nakedpower";
+    scroll-behavior: smooth;
 }
-.infobox1{
+body{
+    overflow-x: hidden;
+}
+.infobox1 , .frontEnd{
     border-radius: 15em 70em 30em 70em ;
 }
+.backEnd{
+    border-radius: 70em 30em 70em 15em ;
+}
+
 .homeBtns{
     border-radius: 70em 30em 70em 30em ;
+}
+.ficons{
+    min-height: 75vh;
+}
+
+
+/* .reveal-right {
+    position: relative;
+    transform: translateX(250px);
+    opacity: 0;
+    transition: 1s all ease-out;
+} */
+
+.reveal-left {
+    position: relative;
+    transform: translateX(-250px);
+    opacity: 0;
+    transition: 1s all ease-out;
+}
+
+/* .reveal-right.active {
+    transform: translateX(0px);
+    opacity: 1;
+} */
+
+.reveal-left.active {
+    transform: translateX(0px);
+    opacity: 1;
+}
+.reveal-bottom {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.6s all ease-out;
+}
+
+.reveal-bottom.active {
+    transform: translateY(0px);
+    opacity: 1;
 }

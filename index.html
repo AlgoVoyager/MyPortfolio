@@ -1,114 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nishant Dewangan</title>
+    <script src="script.js"></script>
     <link href="tailwind.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15676f0266.js" crossorigin="anonymous"></script>
-
 </head>
+<body class="max-w-screen bg-blue-50 ">
+    <nav
+        class="w-full z-50 fixed lg:text-2xl text-xl rounded-b-full shadow-sm backdrop-blur-sm bg-gradient-to-r from-orange-600 via-yellow-500 to-emerald-500  text-transparent bg-clip-text h-24 flex justify-center lg:gap-20 gap-8 items-center">
+        <!-- <nav class="w-full absolute text-2xl bg-blue-100 text-orange-500 h-24 flex justify-center gap-10 items-center"> -->
 
-<body class="max-w-screen bg-blue-50 cursor-grab">
-    <nav class="w-full fixed text-2xl rounded-b-full shadow-sm backdrop-blur-sm z-10 bg-gradient-to-r from-orange-600 via-yellow-500 to-emerald-500  text-transparent bg-clip-text h-24 flex justify-center gap-10 items-center">
-    <!-- <nav class="w-full absolute text-2xl bg-blue-100 text-orange-500 h-24 flex justify-center gap-10 items-center"> -->
-  
-            <a href="#skillspage" class="">Skills</a>
-            <a href="#" class="">Projects</a>
-            <a href="#" class="">About Me</a>
-            <a href="#" class="">Contact Me</a>
+        <a href="#skillspage" class="">Skills</a>
+        <a href="#projects" class="">Projects</a>
+        <a href="#about" class="">About Me</a>
+        <a href="#contact" class="">Contact Me</a>
     </nav>
     <main class="container h-screen min-w-full  flex flex-wrap justify-around items-center">
 
-        <div class="infobox1 relative h-1/2 font-bold mx-12 mt-16 p-20 bg-amber-400 bg-opacity-20 shadow-2xl">
+        <div class="infobox1 relative max-w-[90%] h-1/2 font-bold mx-12 mt-16 p-20 bg-amber-400 bg-opacity-20 shadow-2xl">
             <h4 class="text-2xl text-orange-500 -rotate-12 relative -top-16 -left-10">Hello!</h4>
             <h3 class="text-2xl text-emerald-500">I'm</h3>
-            <h1 class="text-7xl bg-gradient-to-r from-orange-600 via-yellow-500 to-emerald-500 inline-block text-transparent bg-clip-text">Nishant Dewangan</h1>
+            <h1
+                class="text-7xl bg-gradient-to-r from-orange-600 via-yellow-500 to-emerald-500 inline-block text-transparent bg-clip-text">
+                Nishant Dewangan</h1>
             <h3 class="text-2xl text-emerald-500">Fullstack Web Developer</h3>
 
-            <div class="homeBtns h-1/2 lg:w-7/12 md:w-full px-8 bg-slate-300 bg-opacity-50 absolute -bottom-24 right-16 flex gap-8 items-center justify-around shadow-lg">
-                <button class="px-3 py-2 text-2xl bg-gradient-to-br  hover:bg-gradient-to-tl hover:scale-110 delay-75 transition-all ease-linear duration-900  from-yellow-500 to-green-300  rounded-2xl border-orange-200 border" >My Resume <i class="fa-solid fa-file-invoice"></i></button>
-                <button class="px-3 py-2 text-2xl bg-gradient-to-br hover:bg-gradient-to-tl hover:scale-110 delay-75 transition-all ease-linear duration-900  from-green-300 to-yellow-500  rounded-2xl border-orange-200 border" >Lets Talk <i class="fa-regular text-lg fa-message fa-fade"></i></button>
+            <div
+                class="homeBtns lg:h-1/2 h-2/5 lg:w-7/12 w-full px-8 bg-slate-300 bg-opacity-50 absolute -bottom-24 lg:right-16 right-2 flex lg:gap-8 gap-3 items-center justify-around shadow-lg">
+                <a href="https://drive.google.com/file/d/1clQDkE6NQEmqtRcafJBHC23qDu_9lk6Q/view?usp=sharing" target="_blank"
+                    class="px-3 py-2 text-2xl bg-gradient-to-br  hover:bg-gradient-to-tl hover:scale-110 delay-75 transition-all ease-linear duration-900  from-yellow-500 to-green-300  rounded-2xl border-orange-200 border">My Resume <i class="fa-solid fa-file-invoice"></i></a>
+                <a href="https://t.me/DeNishant21" target="_blank"
+                    class="px-3 py-2 text-2xl bg-gradient-to-br hover:bg-gradient-to-tl hover:scale-110 delay-75 transition-all ease-linear duration-900  from-green-300 to-yellow-500  rounded-2xl border-orange-200 border">Lets Talk <i class="fa-regular text-lg fa-message fa-fade"></i></a>
 
             </div>
         </div>
-             
+
         <img src="resources/art.png" alt="" class="lg:w-2/5 mt-14 md:w-full shadow-sm rounded-full">
-        
+
 
     </main>
-
-    <div class="skillspage relative bg-blue-100 min-h-screen flex flex-col justify-around items-center" id="skillspage">
-        <!-- <svg class="absolute -top-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EFF6FF" fill-opacity="1" d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path></svg> -->
-        <svg class="absolute -top-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EFF6FF" fill-opacity="1" d="M0,0L48,10.7C96,21,192,43,288,42.7C384,43,480,21,576,26.7C672,32,768,64,864,64C960,64,1056,32,1152,26.7C1248,21,1344,43,1392,53.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path></svg>
-        <section class="mainSkills min-h-hscreen-1/2 flex w-full justify-between mt-40 items-center flex-wrap relative">
-            <div class="frontEnd bg-blue-200 lg:w-2/5 md:w-full p-5">
+    <div  class="skillspage relative bg-blue-100 min-h-screen flex flex-col justify-around items-center "
+        id="skillspage">
+        <svg class="absolute  -top-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#EFF6FF" fill-opacity="1"
+                d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+                data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path>
+        </svg>
+        <!-- <svg class="absolute -top-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EFF6FF" fill-opacity="1" d="M0,0L48,10.7C96,21,192,43,288,42.7C384,43,480,21,576,26.7C672,32,768,64,864,64C960,64,1056,32,1152,26.7C1248,21,1344,43,1392,53.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path></svg> -->
+        <section
+            class="mainSkills min-h-hscreen-1/2 flex w-full justify-around lg:mt-96 mt-40 items-center flex-wrap relative">
+            <div class="frontEnd shadow-2xl bg-blue-200 lg:w-2/5 md:w-full p-5 py-10 mt-14">
                 <h1 class="text-5xl text-center">Frontend</h1>
-                <div class="ficons bg-blue-300 p-5 flex flex-wrap gap-5 justify-center items-center">
-                    
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-center text-2xl">
-                        HTML<img src="resources/html.png" class="h-28 " alt="">
+                <div
+                    class="ficons backEnd shadow-lg bg-blue-400 bg-opacity-45 p-5 flex flex-wrap gap-5 justify-center items-center ">
+
+                    <div
+                        class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-center text-2xl">
+                        HTML<img src="resources/html.png" class="h-28 " alt="html">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-center text-2xl">
-                        CSS<img src="resources/css.png" class="h-28 " alt="">
+                    <div
+                        class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-center text-2xl">
+                        CSS<img src="resources/css.png" class="h-28 " alt="css">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-2xl">
-                        <img src="resources/js.png" class="h-28 rounded-3xl" alt="">Javascript
+                    <div
+                        class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+                        <img src="resources/js.png" class="h-28 rounded-3xl" alt="js">Javascript
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-2xl">
-                        <img src="resources/bootstrap2.png" class="h-28 rounded-full" alt="">Bootstrap
+                    <div
+                        class=" reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+                        <img src="resources/bootstrap2.png" class="h-28 rounded-full" alt="bs">Bootstrap
                     </div>
-                    <div class="skill bg-blue-50 p-8 pb-11 inline-block rounded-full text-2xl">
-                        <img class="mx-auto h-20 " src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="TailwindCSS">TailwindCSS
+                    <div
+                        class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 pb-11 inline-block rounded-full text-2xl">
+                        <img class="mx-auto h-20 "
+                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                            alt="TailwindCSS">TailwindCSS
                     </div>
-                    
+
                 </div>
             </div>
-            <div class="skillsHeading absolute -top-10 w-full text-7xl  text-center">Skills i Learned</div>
-            <div class="frontEnd bg-blue-200 lg:w-2/5 md:w-full p-5">
+            <div id="skills"
+                class="skillsHeading absolute lg:top-10 -top-20 flex flex-col justify-center items-center min-h-min  text-center bg-blue-200 rounded-full">
+                <span class="text-7xl">Skills</span> <br> <span class="text-3xl  ">i Learned</span></div>
+            <div class="backEnd bg-blue-200 lg:w-2/5 md:w-full p-5 shadow-2xl">
                 <h1 class="text-5xl text-center">Backend</h1>
-                <div class="ficons bg-blue-300 p-5 flex flex-wrap gap-5 justify-center items-center">
-                    
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-center text-2xl">
+                <div
+                    class="ficons frontEnd shadow-lg bg-blue-400 bg-opacity-45 p-5 flex flex-wrap gap-5 justify-center items-center">
+
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-center text-2xl">
                         Python<img src="resources/python.png" class="h-36 " alt="Python">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-2xl">
-                        <img src="resources/django.png" class="h-32 rounded-3xl" alt="">
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+                        <img src="resources/django.png" class="h-32 rounded-3xl" alt="django">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-2xl text-center">
-                        <img src="resources/flask.png" class="h-24 rounded-full" alt="">
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl text-center">
+                        <img src="resources/flask.png" class="h-24 rounded-full" alt="flask">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-center text-2xl">
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 rounded-full flex flex-col gap-5 text-2xl">
                         <img src="resources/java.png" class="h-36 " alt="JAVA">
+                        <img src="resources/jsp.png" class="h-16 " alt="jsp">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-2xl">
-                        <img src="resources/c.png" class="h-20 " alt="c">
-                        <img src="resources/cpp.png" class="h-20 " alt="cpp">
+                    <div
+                        class=" skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+                        <img src="resources/c.png" class="h-20 reveal-bottom " alt="c">
+                        <img src="resources/cpp.png" class="h-20 reveal-bottom " alt="cpp">
                     </div>
-                    <div class="skill bg-blue-50 p-8 inline-block rounded-full text-center text-2xl">
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-center text-2xl">
                         <img src="resources/sql.png" class="h-24 " alt="sql">
                     </div>
-                    <div class="skill bg-blue-50 p-8 rounded-full text-2xl flex gap-5 items-center">
+                    <div
+                        class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 rounded-full text-2xl flex gap-5 flex-wrap justify-center items-center">
                         <img src="resources/mysql.png" class="h-36" alt="mysql">
                         <img src="resources/postgresql.png" class="h-24 " alt="psql">
                         <img src="resources/sqlite.png" class="h-16 " alt="sqlite">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-        <section class="otherSkills bg-blue-400">
-            <div class="moreSkills bg-blue-300">
-                Others
+        <section class="otherSkills z-10 ">
+            <div class="moreSkills text-center text-4xl ">
+                More
+            </div>
+            <div class="frontEnd shadow-2xl bg-blue-200  p-5">
+                <h1 class="text-3xl text-center">Cloud</h1>
+                <div
+                    class=" bg-blue-400 bg-opacity-45 backEnd shadow-lg p-5 flex flex-wrap gap-5 justify-center items-center">
+
+                    <div
+                        class="skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 rounded-full text-2xl flex gap-5 items-center">
+                        <img src="resources/git.png" class="h-14 reveal-bottom" alt="git">
+                        <img src="resources/github.png" class="h-20 reveal-bottom " alt="github">
+                    </div>
+                    <div
+                        class="skill reveal-bottom shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-center text-2xl">
+                        <img src="resources/docker.png" class="h-20 " alt="docker">
+                    </div>
+                    <div
+                        class="skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 rounded-full text-2xl flex gap-5 items-center justify-center flex-wrap">
+                        <img src="resources/ubuntu.png" class="h-32 reveal-bottom" alt="ubuntu">
+                        <img src="resources/kali.png" class="h-24  reveal-bottom" alt="kali">
+                        <img src="resources/linux.png" class="h-36 reveal-bottom " alt="linux">
+                    </div>
+                    <div
+                        class="skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 rounded-full text-2xl flex gap-7 flex-wrap justify-center items-center">
+                        <img src="resources/gcp.png" class="h-28 reveal-bottom" alt="gcp">
+                        <img src="resources/aws.png" class="h-20  reveal-bottom" alt="aws">
+                    </div>
+
+
+                </div>
             </div>
         </section>
+    </div>
+    <div class="certificationPage min-h-hscreen-2/3 flex flex-wrap gap-10 items-center justify-evenly bg-blue-200 relative pt-52">
+        <svg class="absolute lg:-top-14 top-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#DBEAFE" fill-opacity="1"
+                d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+                data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path>
+        </svg>
+        <div
+            class="skillsHeading absolute lg:top-24 top-10 flex flex-col justify-center items-center min-h-min  text-center bg-blue-200 rounded-full">
+            <span class="text-7xl">Certifications</span> <br> <span class="text-3xl  ">I Acquired</span></div>
+
+        <div
+            class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+            <img src="resources/Cert1.jpg" class="lg:h-96 rounded-3xl" alt="js">
+        </div>
+        <div
+            class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900  bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+            <img src="resources/Cert4.jpg" class="lg:h-96 rounded-3xl" alt="js">
+        </div>
+    </div>
+    <div id="projects" class="ProjectsPage min-h-screen flex flex-wrap gap-10 items-center justify-evenly bg-[#aed4ff] relative pt-52">
+        <svg class="absolute lg:-top-10 top-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#BFDBFE" fill-opacity="1"
+                d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+                data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path>
+        </svg>
+        <div
+            class="skillsHeading absolute lg:top-24 top-10 flex flex-col justify-center items-center min-h-min  text-center  rounded-full">
+            <span class="text-7xl">Projects</span> <br> <span class="text-3xl  ">I Made</span></div>
+
+        <div
+            class="reveal-left skill shadow-lg hover:scale-110  transition-all ease-linear duration-900 text-center bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+            <img src="resources/pandufy.jpg" class="lg:h-96 rounded-3xl" alt="js">
+            <a href="https://pandufy.netlify.app/">Pandufy - A Spotify Clone <i class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #0091ff;"></i></a>
+        </div>
+        <div
+            class="reveal-bottom skill shadow-lg hover:scale-110  transition-all ease-linear duration-900 text-center bg-blue-50 bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+            <img src="resources/tastymix.jpg" class="lg:h-96 rounded-3xl" alt="js">
+            <a href="https://tastymix.onrender.com/">TastyMix <i class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #0091ff;"></i></a>
+
+        </div>
+    </div>
+    <div class="ContactPage min-h-hscreen-1/2 flex flex-wrap gap-10 items-center justify-evenly bg-blue-300 relative pt-52">
+        <svg class="absolute -top-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#aed4ff" fill-opacity="1"
+                d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+                data-darkreader-inline-fill="" style="--darkreader-inline-fill: #0d7bc4;"></path>
+        </svg>
+        <div id="contact"
+            class="skillsHeading absolute lg:top-28 top-10 flex flex-col justify-center items-center min-h-min  text-center  rounded-full">
+            <span class="text-7xl">Contact</span> <br> <span class="text-3xl  ">Me</span>
+        </div>
+         <div
+            class="reveal-left flex gap-5 z-50 shadow-lg hover:scale-110   bg-blue-50 bg-opacity-80 p-8 rounded-full text-2xl">
+            <a target="_blank" href="https://github.com/AlgoVoyager" class="text-2xl hover:bg-red-50"> <i class="fa-brands fa-github fa-2xl"></i></a>
+            <a target="_blank" href="https://www.instagram.com/nishantdewangan_21/" class="text-2xl hover:bg-red-50"> <i class="fa-brands fa-instagram fa-2xl" style="color: #ec32e6;"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nishantdeveloper/" class="text-2xl hover:bg-red-50"> <i class="fa-brands fa-linkedin fa-2xl" style="color: #1f8ce0;"></i></a>
+            <a target="_blank" href="https://t.me/DeNishant21" class="text-2xl hover:bg-red-50"> <i class="fa-brands fa-telegram fa-2xl" style="color: #42adff;"></i></a>
+           
+        </div>
+
+        
+        <div  class="skill shadow-sm hover:scale-110 z-50 transition-all ease-linear duration-900 max-w-[90%]  bg-opacity-80 p-8 inline-block rounded-full text-2xl">
+            <form action="#" class="text-center flex flex-col items-center">
+                <input type="text" name="Email" class="reveal-bottom rounded-t-3xl bg-blue-100 p-3 placeholder:text-center" id="email" placeholder="Enter Email">
+                <textarea name="desc" class="reveal-bottom rounded-3xl bg-blue-100 p-5 placeholder:text-center" cols="25" rows="3" placeholder="Describe Your Query"></textarea>
+                <input type="submit" value="Send" class="reveal-bottom rounded-b-2xl bg-blue-100 px-5">
+            </form>
+        </div>
+       <div id="about" class="reveal-bottom flex flex-col items-center gap-5 z-50 shadow-lg hover:scale-110   bg-blue-50 bg-opacity-80 p-8 rounded-full text-xl">
+            <h1 class="text-3xl">About Me</h1>
+            <p>I'm MCA Student</p>
+            <p>A Tech Enthausiast &</p>
+            <p>A Passionate Programmer</p>
+        </div>
         
     </div>
-
-    <footer class="h-20 bg-blue-200">
-
+    <footer class="h-20 bg-[#7ab8ff] text-3xl flex items-center justify-center">
+         &copy 2024@NishantDewangan
     </footer>
 </body>
-
 </html>
