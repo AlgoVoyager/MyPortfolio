@@ -14,9 +14,12 @@ body{
 }
 .infobox1 , .frontEnd{
     border-radius: 15em 70em 30em 70em ;
+    animation: breathing1 4s linear infinite;
 }
 .backEnd{
     border-radius: 70em 30em 70em 15em ;
+    animation: breathing2 3s linear infinite;
+
 }
 
 .homeBtns{
@@ -60,4 +63,40 @@ body{
 .reveal-bottom.active {
     transform: translateY(0px);
     opacity: 1;
+}
+
+@keyframes breathing1 {
+    0%{
+        border-radius: 15em 70em 30em 70em ;
+    }    
+    50%{
+        border-radius: 30em 100em 35em 75em ;
+    }
+    100%{
+        border-radius: 15em 70em 30em 70em ;
+    }
+}
+@keyframes breathing2 {
+    0%{
+        border-radius: 70em 30em 70em 15em ;
+    }    
+    50%{
+        border-radius: 80em 35em 90em 20em ;
+    }
+    100%{
+        border-radius: 70em 30em 70em 15em ;
+    }
+}
+#python{
+    animation: spin 10s ease-in-out infinite;
+    
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
 }
