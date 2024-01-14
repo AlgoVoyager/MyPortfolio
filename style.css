@@ -24,6 +24,7 @@ body{
 
 .homeBtns{
     border-radius: 70em 30em 70em 30em ;
+    animation: breathing2 3s linear infinite;
 }
 .ficons{
     min-height: 75vh;
