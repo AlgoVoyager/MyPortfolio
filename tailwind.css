@@ -1038,6 +1038,34 @@ video {
   padding-top: 20rem;
 }
 
+.pt-96 {
+  padding-top: 24rem;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[30vh\] {
+  padding-top: 30vh;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
+.pt-\[300px\] {
+  padding-top: 300px;
+}
+
+.pt-\[500px\] {
+  padding-top: 500px;
+}
+
 .text-center {
   text-align: center;
 }
